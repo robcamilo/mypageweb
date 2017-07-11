@@ -1,12 +1,11 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="{{ config('app.locale') }}">
 <head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/slimmenu.css" rel="stylesheet" media="screen">
     <script src="js/jquery.min.js"></script>
 
     <title>My page Web</title>
@@ -18,16 +17,16 @@
         <div class="header_style1">
             <!-- start h_logo -->
             <div class="logo">
-                <h1><a href="index.html">Resume</a></h1>
+                <h1><a href="#home">WebLand</a></h1>
             </div>
             <!-- start h_menu -->
             <div class="h_menu">
                 <ul class="flexy-menu thick orange">
-                    <li> <a href="#home" class="scroll">Home</a></li>
+                    <li> <a href="#home" class="scroll">Inicio</a></li>
                     <li><a href="#Portfolio" class="scroll">Portfolio</a></li>
-                    <li><a href="#skills" class="scroll">Skills</a> </li>
-                    <li><a class="scroll" href="#Experience">Experience</a></li>
-                    <li><a href="#contact" class="scroll">Contact</a></li>
+                    <li><a href="#skills" class="scroll">Habilidades</a> </li>
+                    <li><a class="scroll" href="#Experience">Experiencia</a></li>
+                    <li><a href="#contact" class="scroll">Contacto</a></li>
                 </ul>
             </div>	<!-- end h_menu -->
             <div class="clear"> </div>
@@ -42,19 +41,14 @@
             <!---start-da-slider----->
             <div id="da-slider" class="da-slider">
                 <div class="da-slide">
-                    <h2>Designer & maker</h2>
-                    <p>Lorem ipsum is simply dummy text of the printing</p>
-                    <a href="#" class="da-link"><span> READ NOW</span></a>
+                    <h2>Desarrollo Web a tu medida</h2>
+                    <p>Realizamos lo que buscas & a tu gusto!</p>
+                    <a href="#contact" class="da-link"><span> Contactanos</span></a>
                 </div>
                 <div class="da-slide">
-                    <h2>Designer & maker</h2>
-                    <p>Lorem ipsum is simply dummy text of the printing</p>
-                    <a href="#" class="da-link"><span> READ NOW</span></a>
-                </div>
-                <div class="da-slide">
-                    <h2>Designer & maker</h2>
-                    <p>Lorem ipsum is simply dummy text of the printing</p>
-                    <a href="#" class="da-link"><span> READ NOW</span></a>
+                    <h2>Haz crecer tu Negocio</h2>
+                    <p>LLeva tus sueños a otro Nivel!</p>
+                    <a href="#contact" class="da-link"><span> Contactanos</span></a>
                 </div>
                 <nav class="da-arrows">
                     <span class="da-arrows-prev"></span>
@@ -86,31 +80,16 @@
     <div class="group_1-items">
         <div class="wrap">
             <div id="owl-demo" class="owl-carousel">
-                <div class="item" >
-                    <div class="carousel">
-                        <div class="group_1_img">
-                            <h3 class="ui">UI</h3>
-                            <h4 class="ux">UX</h4>
-                            <div class="clear"> </div>
-
-                        </div>
-                        <div class="group_1_text">
-                            <h3>I create simple interfaces for humans and enjoy pixel-perfection.</h3>
-                            <p>I’m an experienced and passionate user interface designer with interaction design background.</p>
-                        </div>
-                        <div class="clear"> </div>
-                    </div>
-                </div>
                 <div class="item">
                     <div class="carousel">
                         <div class="group_1_img">
-                            <h3 class="ui fontend">FRONTEND</h3>
-                            <h4 class="ux ui1">UI</h4>
+                            <h3 class="ui fontend">BOOSTRAP</h3>
+                            <h4 class="ux ui1" style="font-size: 31px">HTML5</h4>
                             <div class="clear"> </div>
                         </div>
                         <div class="group_1_text">
-                            <h3>I create simple interfaces for humans and enjoy pixel-perfection.</h3>
-                            <p>I’m an experienced and passionate user interface designer with interaction design background.</p>
+                            <h3>Sitios web adaptables a todos los dispositivos del mercado</h3>
+                            <p>Es imprescindible que los usuarios puedan navegar tu sitio sin ningún problema en cualquier dispositivo. Es por eso que nos preocupamos por prestar atención a este detalle para brindar la mejor experiencia online.</p>
                         </div>
                         <div class="clear"> </div>
                     </div>
@@ -118,13 +97,13 @@
                 <div class="item">
                     <div class="carousel">
                         <div class="group_1_img ">
-                            <h3 class="ui core">CORE</h3>
-                            <h4 class="ux ui1">UI</h4>
+                            <h3 class="ui core" style="font-size: 27px">LARAVEL</h3>
+                            <h4 class="ux ui1" style="font-size: 25px">AUNGULAR</h4>
                             <div class="clear"> </div>
                         </div>
                         <div class="group_1_text">
-                            <h3>I create simple interfaces for humans and enjoy pixel-perfection.</h3>
-                            <p>I’m an experienced and passionate user interface designer with interaction design background.</p>
+                            <h3>Sitios web administrables.</h3>
+                            <p>Permite actualizar el contenido de tu página web sin necesidad de tener conocimientos informáticos avanzados, y sin pagarle a un webmaster.</p>
                         </div>
                         <div class="clear"> </div>
                     </div>
@@ -145,24 +124,24 @@
                         </div>
                         <div class="group_2_text2">
                             <div class="desc">
-                                <h3>client</h3>
+                                <h3>cliente</h3>
                                 <h4>Apple</h4>
                             </div>
                             <div class="desc">
-                                <h3>Role in project</h3>
-                                <h4>Designer Lead</h4>
+                                <h3>Role del proyecto</h3>
+                                <h4>Diseñador lider</h4>
                             </div>
                             <div class="desc">
-                                <h3>project included</h3>
-                                <h4>Mobile and web interface</h4>
+                                <h3>Contenido del proyecto</h3>
+                                <h4>Mobile & interfaz web</h4>
                             </div>
                             <div class="button_2">
-                                <a href="#">Browser</a>
+                                <a href="#">Ver más</a>
                             </div>
                         </div>
                         <div class="clear"> </div>
                         <div class="brows_button_3">
-                            <a href="#">Browser portfolio</a>
+                            <a href="#">Ver Proyecto</a>
                         </div>
                     </div>
                 </div>
@@ -173,24 +152,24 @@
                         </div>
                         <div class="group_2_text2">
                             <div class="desc">
-                                <h3>client</h3>
-                                <h4>Lorem ipsum dolor</h4>
+                                <h3>cliente</h3>
+                                <h4>Nestle</h4>
                             </div>
                             <div class="desc">
-                                <h3>Role in project</h3>
-                                <h4>Designer Lead</h4>
+                                <h3>Role del proyecto</h3>
+                                <h4>Director en diseño web</h4>
                             </div>
                             <div class="desc">
-                                <h3>project included</h3>
-                                <h4>Responsive Mobile Website Templates </h4>
+                                <h3>Contenido del proyecto</h3>
+                                <h4>Desarrollo fornt-end y back-end </h4>
                             </div>
                             <div class="button_2">
-                                <a href="#">Browser</a>
+                                <a href="#">Ver más</a>
                             </div>
                         </div>
                         <div class="clear"> </div>
                         <div class="brows_button_3">
-                            <a href="#">Browser portfolio</a>
+                            <a href="#">Ver Proyecto</a>
                         </div>
                     </div>
                 </div>
@@ -201,24 +180,24 @@
                         </div>
                         <div class="group_2_text2">
                             <div class="desc">
-                                <h3>client</h3>
-                                <h4>Apple</h4>
+                                <h3>cliente</h3>
+                                <h4>Banco BBVA</h4>
                             </div>
                             <div class="desc">
-                                <h3>Role in project</h3>
-                                <h4>Designer Lead</h4>
+                                <h3>Role del Proyecto</h3>
+                                <h4>Lider Tecnico</h4>
                             </div>
                             <div class="desc">
-                                <h3>project included</h3>
-                                <h4>Developing games in Android Mobiles</h4>
+                                <h3>Contenido del proyecto</h3>
+                                <h4>Desarrollo plataforma administrativa</h4>
                             </div>
                             <div class="button_2">
-                                <a href="#">Browser</a>
+                                <a href="#">Ver más</a>
                             </div>
                         </div>
                         <div class="clear"> </div>
                         <div class="brows_button_3">
-                            <a href="#">Browser portfolio</a>
+                            <a href="#">Ver Proyecto</a>
                         </div>
                     </div>
                 </div>
@@ -284,30 +263,30 @@
     <section class="text-light">
         <div  class="wrap">
             <div class="row-content1">
-                <h3 class="heading">Skills</h3>
-                <p class="para">Iam an experienced and passionate user interface designer with interaction design background.<br>My goal is to make the world wide web a better place by designing beautiful user experiences, one site at a time.</p>
+                <h3 class="heading">Habilidades</h3>
+                <p class="para">Soy un desarrollador web con diferentes habilidades y herramientas que permiten obtener resultados excelentes y adecuados a sus peticiones. Mi objetivo es poder satisfacer la necesidades de mis clientes permitiendo que sus sueños y Negocios lleguen a otro nivel de exito!</p>
                 <div class="chart" data-percent="73" data-bar-color="#35AFBA" data-animate="4000">
                     <div class="chart-content">
                         <div class="percent"></div>
-                        <div class="chart-title">User Interface</div>
+                        <div class="chart-title">Back-end</div>
                     </div><!-- chart-content -->
                 </div><!-- chart -->
-                <div class="chart" data-percent="85" data-bar-color="#FF6060" data-animate="2500">
+                <div style="margin-left: 3px" class="chart" data-percent="85" data-bar-color="#FF6060" data-animate="2500">
                     <div class="chart-content">
                         <div class="percent"></div>
                         <div class="chart-title">Front-end</div>
                     </div><!-- chart-content -->
                 </div><!-- chart -->
-                <div class="chart" data-percent="70" data-bar-color="#3AD079" data-animate="3000">
+                <div style="margin-left: 3px" class="chart" data-percent="70" data-bar-color="#3AD079" data-animate="3000">
                     <div class="chart-content">
                         <div class="percent"></div>
-                        <div class="chart-title">User Experience</div>
+                        <div class="chart-title">Bases de datos</div>
                     </div><!-- chart-content -->
                 </div><!-- chart -->
-                <div class="chart" data-percent="40" data-bar-color="#58C0E3" data-animate="3500">
+                <div style="margin-left: 3px" class="chart" data-percent="40" data-bar-color="#58C0E3" data-animate="3500">
                     <div class="chart-content">
                         <div class="percent"></div>
-                        <div class="chart-title">User Experience</div>
+                        <div class="chart-title">Servidores</div>
                     </div><!-- chart-content -->
                 </div><!-- chart -->
                 <div class="clear"> </div>
@@ -319,14 +298,14 @@
 </div>
 <div class="exper" id="Experience">
     <div class="wrap">
-        <h3 class="heading">Experience</h3>
+        <h3 class="heading">Experiencia</h3>
         <section class="row section">
             <div class="row-content2">
                 <div class="timeline-label column six">
-                    <h4>Work experience</h4>
-                    <p>Specialties : User experience design, user interface design, brand identity, typography, print and packaging design, web standards, grid based layout.</p>
+                    <h4>Experiencia de trabajo</h4>
+                    <p>Especialidades : Experiencia de usuario, diseño de interfaz de usuario, identidad de marca, sitios administrables, estándares web, diseño responsive</p>
                     <div class="brows_button_4">
-                        <a href="#">View on Linkedin</a>
+                        <a href="#">Encuentranos en Linkedin</a>
                     </div>
                 </div><!-- timeline-label -->
                 <div class="timeline column six last">
@@ -388,32 +367,8 @@
                             <img src="images/img.png" alt="">
                         </div>
                         <div class="group_1_text group_3_text">
-                            <h3> Adedayo Saheed</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        </div>
-                        <div class="clear"> </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="carousel">
-                        <div class="group_3_img">
-                            <img src="images/img.png" alt="">
-                        </div>
-                        <div class="group_1_text group_3_text">
-                            <h3>Narate Ketram</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-                        </div>
-                        <div class="clear"> </div>
-                    </div>
-                </div>
-                <div class="item">
-                    <div class="carousel">
-                        <div class=" group_3_img">
-                            <img src="images/img.png" alt="">
-                        </div>
-                        <div class="group_1_text group_3_text">
-                            <h3>Adrian Thomas</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                            <h3> Robert Rodriguez</h3>
+                            <p>Ingeniero electrónico y desarrollador de Software, con excelentes relaciones interpersonales, y aptitudes de liderazgo con actitud de servicio a los grupos y proyectos que pertenece.</p>
                         </div>
                         <div class="clear"> </div>
                     </div>
@@ -424,49 +379,51 @@
 </div>
 <div class="contact" id="contact">
     <div class="wrap">
-        <h3 class="heading">Contact</h3>
-        <form>
+        <h3 class="heading">Contacto</h3>
+        <form action="messages/form" method="post">
             <div class="left-form">
+                {{ csrf_field() }}
                 <ul>
                     <li class="name">
                         <a href="#" class="icon user"> </a>
-                        <input type="text" placeholder="Username" required="">
+                        <input name="name" type="text" placeholder="Nombre usuario" required>
                         <div class="clear"> </div>
                     </li>
                     <li class="email">
                         <a href="#" class="icon mail"> </a>
-                        <input type="email" placeholder="Email" required="">
+                        <input name="email" type="email" placeholder="Correo" required>
                         <div class="clear"> </div>
                     </li>
                     <div class="clear"> </div>
                     <li>
-                        <input type="text" placeholder="Cost of your project" required="">
+                        <input name="phone" type="text" placeholder="Telefono" required>
                         <div class="clear"> </div>
                     </li>
                     <li>
-                        <input type="text" placeholder="Timeline" required="">
+                        <textarea name="message" class="plain buffer" placeholder="Cuentanos un poco mas y te contactaremos!"></textarea>
                         <div class="clear"> </div>
                     </li>
-                    <li>
-                        <textarea class="plain buffer" placeholder="Don't forget that kindness is all!"> Don't forget that kindness is all!</textarea>
-                        <div class="clear"> </div>
-                    </li>
+                    {{--@if($errors->has('message'))
+                        @foreach($errors->get('message') as $error)
+                            <div>{{ $error }}</div>
+                        @endforeach
+                    @endif--}}
+
                     <div class="send">
-                        <a href="#">SEND</a>
+                        <input type="submit"> </input>
                     </div>
                 </ul>
             </div>
             <div class="right-form">
-                <h4>LOCATION</h4>
-                <p>122 Lorem ipsum dolor, sit amet, 678 consectetur</p>
+                <h4>Contactanos!</h4>
+                <p>Escribenos y te contactaremos lo antes posible!</p>
                 <div class="soc_icons">
-                    <h4>I AM SOCIAL</h4>
+                    <h4>SIGUENOS!</h4>
                     <ul>
                         <li><a class="icon1" href="#"> <span>Facebook</span> </a>  </li>
                         <li><a class="icon2" href="#"><span>Twitter</span></a></li>
                         <li><a class="icon3" href="#"><span>Google+</span></a></li>
                         <li><a class="icon4" href="#"><span>Linkedin</span></a></li>
-                        <li><a class="icon5" href="#"><span>Flickr</span></a></li>
                         <div class="clear"> </div>
                     </ul>
                 </div>
@@ -476,7 +433,7 @@
     </div>
 </div>
 <div class="contact-map">
-    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/?ie=UTF8&amp;ll=22.593726,79.453125&amp;spn=3.803105,6.696167&amp;t=m&amp;z=8&amp;output=embed"></iframe>
+    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.in/?ie=UTF8&amp;ll=4.60971,-74.08175&amp;spn=3.803105,6.696167&amp;t=m&amp;z=8&amp;output=embed"></iframe>
 </div>
 <div class="footer">
     <div class="wrap">
@@ -485,32 +442,33 @@
                 <div class="widget column three"><!-- la class="widget" è forse generata utomaticamente da wp -->
                     <h4>Menu</h4>
                     <ul class="plain">
-                        <li> <a href="#home" class="scroll">Home</a> </li>
+                        <li> <a href="#home" class="scroll">Inicio</a> </li>
                         <li><a href="#Portfolio" class="scroll">Portfolio</a></li>
-                        <li><a href="#skills" class="scroll">Skills</a> </li>
-                        <li><a class="scroll" href="#Experience">Experience</a></li>
-                        <li><a href="#contact" class="scroll">Contact</a></li>
+                        <li><a href="#skills" class="scroll">Habilidades</a> </li>
+                        <li><a class="scroll" href="#Experience">Experiencia</a></li>
+                        <li><a href="#contact" class="scroll">Contacto</a></li>
                         <div class="clear"> </div>
                     </ul>
                 </div>
                 <div class="widget column three">
-                    <h4>Archives</h4>
+                    <h4>Frameworks y herramientas</h4>
                     <ul class="plain">
-                        <li><a href="#">March 2014</a></li>
-                        <li><a href="#">April 2014</a></li>
-                        <li><a href="#">May 2014</a></li>
-                        <li><a href="#">June 2014</a></li>
-                        <li><a href="#">July 2014</a></li>
+                        <li><a href="#"></a></li>
+                        <li><a href="#">Laravel, Php</a></li>
+                        <li><a href="#">Jquery, Java Script</a></li>
+                        <li><a href="#">Docker</a></li>
+                        <li><a href="#">Boostrap</a></li>
+                        <li><a href="#">Mysql y Postgres</a></li>
                         <div class="clear"> </div>
                     </ul>
                 </div>
                 <div class="widget column three">
-                    <h4>Widget</h4>
-                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                    <h4>Nuestro Objetivo</h4>
+                    <p>Nos dedicamos a satisfacer las necesidades de nuestros clientes, permitiendoles realizar sus sueños y llevar sus negocias a la cima!.</p>
                 </div>
                 <div class="widget meta-social column three last">
                     <div class="soc_icons soc_icons1">
-                        <h4>Follows</h4>
+                        <h4>Siguenos!</h4>
                         <ul>
                             <li><a class="icon1" href="#"> </a> </li>
                             <li><a class="icon2" href="#"> </a></li>
@@ -524,7 +482,7 @@
         </div><!-- row-content -->
     </div><!-- row -->
     <div class="copy">
-        <p>© 2014 Template by <a href="http://w3layouts.com" target="_blank">w3layouts</a></p>
+        <p>Realizada por <a href="#home" target="_blank">WebLand: Robert Rodriguez</a></p>
     </div>
     <!-- scroll_top_btn -->
     <script type="text/javascript" src="js/move-top.js"></script>

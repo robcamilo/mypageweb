@@ -115,7 +115,7 @@ body {
 
 .chart-title,
 .count-subject {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 0.789em;
 }
 
@@ -552,7 +552,7 @@ textarea
 	height: 300px;
 	}
 	.centertxt {
-	width: 160%;
+	width: 100%;
 	}
 }
 @media only screen and (max-width: 1280px)

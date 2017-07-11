@@ -11,6 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.app');
-});
+Route::get('/', 'PagesController@home');
+
+Route::get('/contacto', 'PagesController@contact');
+
+Route::post('/messages/form', 'MessagesController@create');
